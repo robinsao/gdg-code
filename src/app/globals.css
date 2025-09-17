@@ -1,0 +1,63 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+body,
+.dashboard-bg {
+  background: #18191a;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  background: #232325;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.18);
+  border: 1px solid #232325;
+}
+
+.card-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.01em;
+}
+
+.logo {
+  box-shadow: 0 2px 8px 0 rgba(255, 167, 38, 0.18);
+}
+
+/* Custom scrollbar for dashboard */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #232325;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 8px;
+}
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
