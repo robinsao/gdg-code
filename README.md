@@ -11,6 +11,7 @@ Run
 ```sh
 git clone https://github.com/robinsao/gdg-code
 cd gdg-code
+npm i
 npm run dev
 ```
 
