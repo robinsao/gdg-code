@@ -1,6 +1,6 @@
 # Overview
 
-Code for my GDG Hackathon in 2025.
+Code for our group in GDG Hackathon, 2025.
 
 This only has mock data; it's not yet connected to a functional backend
 
